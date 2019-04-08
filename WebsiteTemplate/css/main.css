@@ -11,7 +11,7 @@
    Global styles
    ========================================================================== */
 h1 {
-  font-family: 'Dr Sugiyama', cursive;
+  font-family: "Lato";
 }
 
 h2, h3, p, .navbar-nav {
@@ -22,24 +22,24 @@ h2, h3, p, .navbar-nav {
 
 h1 {
   font-size: 62px;
-  color: #7FFF00;
+  color: #008000;
 }
 
 
 h2 {
   font-size: 42px;
   font-weight: 300;
-  color: #545454;
+  color: #008000;
 }
 
 h3 {
   font-size: 30px;
   font-weight: 300;
-  color: #7FFF00;
+  color: #008000;
 }
 
 p {
-  color: #7e7e7e;
+  color: #000000;
   font-size: 16px;
 }
 
@@ -118,7 +118,7 @@ p {
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
     background-color: #ffffff;
     border-color: #FFFFFF;
-    color: #7FFF00;
+    color: #008000;
     
     -webkit-transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -128,13 +128,13 @@ p {
 
 .btn-secondary {
     background-color: transparent;
-    border-color: #7FFF00;
-    color: #7FFF00;
+    border-color: #008000;
+    color: #008000;
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active, .open .dropdown-toggle.btn-secondary {
-    background-color: #7FFF00;
-    border-color: #7FFF00;
+    background-color: #008000;
+    border-color: #008000;
     color: #ffffff;
     
     -webkit-transition: all 0.35s ease-in-out;
@@ -176,7 +176,7 @@ p {
 }
 
 .navbar-brand {
-    padding: 0px;
+    padding: 30px;
 }
 
 .navbar {
@@ -184,7 +184,7 @@ p {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-    color: #7FFF00;
+    color: #008000;
     font-weight: 400;
     text-transform: uppercase;
 }
@@ -229,7 +229,7 @@ p {
    
 #main1 {
   background: FFFFFF;
-  padding-top: 140px;
+  padding-top: 30px;
   min-height: 650px;
   overflow: hidden;
   height: auto;
@@ -242,17 +242,17 @@ p {
 
 
 blockquote {
-    border-left: 8px solid #7FFF00;
+    border-left: 8px solid #008000;
     font-size: 16.5px;
-    color: #7e7e7e;
+    color: #000000;
     font-style: italic;
     margin: 0 0 20px;
-    padding: 0px 20px;
+    padding: 0px 10px;
 }
 
 #main2 {
   background: #ffffff;
-  padding-top: 140px;
+  padding-top: 0px;
   height: 650px;
   overflow: hidden;
 }
@@ -270,7 +270,7 @@ blockquote {
 }
 
 #bottom {
-  padding: 220px 0px;
+  padding: 120px 0px;
   background: #f4f4f4;
   overflow-y: hidden;
 }
@@ -281,7 +281,7 @@ blockquote {
   border-radius: 30px;
   border: 2px solid #545454;
   background: transparent;
-  color: #545454;
+  color: #008000;
   padding: 14px 16px;
   display: block;
 }
@@ -289,7 +289,7 @@ blockquote {
 .social li a:hover {
   border: 2px solid #aeaeae;
   background: transparent;
-  color: #aeaeae;
+  color: #008000;
   
   -webkit-transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -308,7 +308,7 @@ blockquote {
     border: 0 solid #CCCCCC;
     border-radius: 2px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
-    color: #555555;
+    color: #FFFFFF;
     display: block;
     font-size: 14px;
     height: 55px;
@@ -319,7 +319,7 @@ blockquote {
 }
 
 footer {
-  background: #ffffff;
+  background: #f4f4f4;
   padding: 40px 0px;
 }
 
